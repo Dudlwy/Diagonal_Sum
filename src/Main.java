@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
 
     int[][] matrix = new int[10][10];
@@ -21,7 +19,6 @@ void main() {
         if( i != j){
             matrix[i][index] = n1;
             sum2 += n1;
-            System.out.println(sum2);
         }
         j++;
         index--;
@@ -39,7 +36,5 @@ void main() {
         System.out.println();
     }
 
-    System.out.println(sum2);
-    System.out.println(sum1);
     System.out.println("The sum is : " + (sum1 + sum2));
 }
